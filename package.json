@@ -12,7 +12,7 @@
     "clean": "rm -Rf dist/ .parcel-cache",
     "start": "npm run clean && parcel serve index.html",
     "build": "parcel build index.html",
-    "serve": "serve -s dist"
+    "serve": "npm run build && serve -s dist"
   },
   "devDependencies": {
     "parcel": "latest"
