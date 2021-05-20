@@ -1,0 +1,15 @@
+{
+  "name": "rstm.me",
+  "version": "0.1.0",
+  "description": "Personal site",
+  "main": "index.js",
+  "author": "Rustam Yusupov",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rustamyusupov/rustamyusupov.github.io.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
