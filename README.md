@@ -1,2 +1,1 @@
-# rustamyusupov.github.io
-personal site
+Personal site
