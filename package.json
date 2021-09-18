@@ -11,7 +11,8 @@
   "scripts": {
     "clean": "rm -Rf dist/ .parcel-cache",
     "start": "parcel ./src/*.html",
-    "build": "npm run clean && parcel build ./src/*.html --no-source-maps"
+    "build": "npm run clean && parcel build ./src/*.html --no-source-maps",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "devDependencies": {
     "parcel": "latest"
