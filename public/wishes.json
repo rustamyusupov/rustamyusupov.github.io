@@ -1,0 +1,162 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Devices"
+    },
+    {
+      "id": 1,
+      "name": "Equipment"
+    },
+    {
+      "id": 2,
+      "name": "Clothes"
+    }
+  ],
+  "items": [
+    {
+      "id": 0,
+      "categoryId": 0,
+      "name": "Sony’s WH-1000XM4",
+      "link": "https://www.sony.com/electronics/headband-headphones/wh-1000xm4",
+      "price": 350,
+      "currency": "USD",
+      "status": "active"
+    },
+    {
+      "id": 1,
+      "categoryId": 0,
+      "name": "Garmin Edge 530",
+      "link": "https://www.bikeinn.com/велосипед/garmin-edge-530-Езда-на-велосипеде-Компьютер/137180529/p",
+      "price": 18634.99,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "categoryId": 0,
+      "name": "Garmin HRM-DUAL",
+      "link": "https://www.bikeinn.com/велосипед/garmin-hrm-dual-Частота-сердцебиения-sensor/137082134/p",
+      "price": 3917.99,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "categoryId": 0,
+      "name": "Lezyne Femto USB Drive Rear Light",
+      "link": "https://www.bikeinn.com/велосипед/lezyne-femto-usb-drive-rear-light/137290122/p",
+      "price": 1186.99,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "categoryId": 0,
+      "name": "Canyon Ultimate CF SL 7, Size: S",
+      "link": "https://www.canyon.com/en-de/road-bikes/race-bikes/ultimate/cf-sl/ultimate-cf-sl-7/2751.html?dwvar_2751_pv_rahmenfarbe=BK%2FBK",
+      "price": 1699,
+      "currency": "eur",
+      "status": "hide"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "name": "Garmin Forerunner/Fénix Bicycle Mount",
+      "link": "https://www.bikeinn.com/велосипед/garmin-forerunner-fenix-bicycle-mount/6654/p",
+      "price": 727.99,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "name": "Freeletics Pullup bar",
+      "link": "https://shop.freeletics.com/products/no-excuses-bar",
+      "price": 44.99,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "name": "Freeletics Jump rope",
+      "link": "https://shop.freeletics.com/collections/jump-rope/products/freeletics-jump-rope",
+      "price": 24.99,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "name": "MET Vinci MIPS Helmet, Size: M, Color: white",
+      "link": "https://www.bikeinn.com/велосипед/met-vinci-mips-helmet/137297893/p",
+      "price": 8541.48,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "name": "Oakley Jawbreaker Prizm Road Sunglasses, Color: white",
+      "link": "https://www.chainreactioncycles.com/ru/en/oakley-jawbreaker-prizm-road-sunglasses/rp-prod141689",
+      "price": 9599,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "name": "Fizik Tempo Microtex Bondcush Soft 3 mm Handlebar Tape",
+      "link": "https://www.chainreactioncycles.com/ru/en/fizik-tempo-m-tx-soft-bar-tape/rp-prod181664",
+      "price": 1641.99,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "name": "Castelli Giro d'Italia 2021 nero 010",
+      "link": "https://www.bike24.com/p2326891.html",
+      "price": 11.76,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "name": "Veter Jersey, Size: M",
+      "link": "https://veter.cc/store?store-page=МУЖСКАЯ-КЛАССИЧЕСКАЯ-ДЖЕРСИ-2021-p377016925",
+      "price": 4990,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "name": "Veter Warm Jersey, Size: M",
+      "link": "https://veter.cc/store?store-page=МУЖСКАЯ-ТЁПЛАЯ-ДЖЕРСИ-2021-p351359521",
+      "price": 6490,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "name": "Veter Base Layer, Size: M",
+      "link": "https://veter.cc/store?store-page=МУЖСКОЙ-БАЗОВЫЙ-СЛОЙ-2021-p389430742",
+      "price": 1990,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "name": "Veter Bibs, Size: M",
+      "link": "https://veter.cc/store?store-page=МУЖСКИЕ-ВЕЛОТРУСЫ-2021-p297691447",
+      "price": 4990,
+      "currency": "RUB",
+      "status": "active"
+    }
+  ]
+}
