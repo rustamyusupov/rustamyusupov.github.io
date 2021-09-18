@@ -10,9 +10,8 @@
   },
   "scripts": {
     "clean": "rm -Rf dist/ .parcel-cache",
-    "start": "npm run clean && parcel serve index.html",
-    "build": "parcel build index.html",
-    "serve": "npm run build && serve -s dist"
+    "start": "parcel ./src/*.html",
+    "build": "npm run clean && parcel build ./src/*.html --no-source-maps"
   },
   "devDependencies": {
     "parcel": "latest"
