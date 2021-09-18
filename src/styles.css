@@ -18,3 +18,29 @@ body {
   justify-content: center;
   height: 100%;
 }
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category-title {
+  margin-bottom: 10px;
+}
+
+.wish {
+  padding-left: 15px;
+}
+
+.wish:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #227cca;
+  text-decoration: none;
+}
