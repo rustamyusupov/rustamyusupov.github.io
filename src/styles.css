@@ -2,10 +2,18 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  --color-link: #227cca;
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
 }
 
 ul {
@@ -41,6 +49,5 @@ ul {
 }
 
 .link {
-  color: #227cca;
-  text-decoration: none;
+  color: var(--color-link);
 }
