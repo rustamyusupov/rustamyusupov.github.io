@@ -5,6 +5,9 @@ const visibilityMap = {
   h: 'hidden',
 }
 
+const byCategory = id => ({ categoryId }) => categoryId === id;
+const byVisibility = status => ({ visibility }) => visibility ? status.includes(visibility) : true;
+
 const getPrice = (amount, currency) =>
   Math.ceil(amount).toLocaleString("ru", {
     style: "currency",
@@ -25,9 +28,6 @@ const getWish = ({ name, link, price, currency, status }) =>
     &nbsp;&mdash; 
     <span>${getPrice(price, currency)}</span>
   </li>`
-
-const byCategory = id => ({ categoryId }) => categoryId === id;
-const byVisibility = status => ({ visibility }) => visibility ? status.includes(visibility) : true;
 
 const render = ({ wishes, visibility }) => {
   const { categories, items } = wishes;
