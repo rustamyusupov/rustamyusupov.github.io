@@ -57,7 +57,8 @@
       "link": "https://www.canyon.com/en-de/road-bikes/race-bikes/ultimate/cf-sl/ultimate-cf-sl-7/2751.html?dwvar_2751_pv_rahmenfarbe=BK%2FBK",
       "price": 1699,
       "currency": "eur",
-      "status": "hide"
+      "status": "active",
+      "hidden": true
     },
     {
       "id": 5,
@@ -157,6 +158,15 @@
       "price": 4990,
       "currency": "RUB",
       "status": "active"
+    },
+    {
+      "id": 16,
+      "categoryId": 0,
+      "name": "Magene S3+ Speed Cadence Sensor",
+      "link": "https://aliexpress.ru/item/4001008082955.html?item_id=4001008082955&sku_id=12000016135940809",
+      "price": 34.79,
+      "currency": "USD",
+      "status": "presented"
     }
   ]
 }
