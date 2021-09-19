@@ -25,6 +25,10 @@ ul {
   align-items: center;
 }
 
+.wishes {
+  padding: 10px;
+}
+
 .category {
   margin-bottom: 20px;
 }
