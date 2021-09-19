@@ -2,6 +2,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  --color-black: #000;
   --color-link: #227cca;
 }
 
@@ -48,6 +49,11 @@ ul {
   margin-bottom: 10px;
 }
 
-.link {
+.active {
   color: var(--color-link);
+}
+
+.presented {
+  color: var(--color-black);
+  text-decoration: line-through;
 }

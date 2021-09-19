@@ -7,10 +7,17 @@ const getPrice = (amount, currency) =>
     maximumFractionDigits: 0
   });
 
-
-const getWish = ({ name, link, price, currency }) => 
+const getWish = ({ name, link, price, currency, status }) =>
   `<li class="wish">
-    <a class="link" href="${link}" target="_blank" rel="nofollow noopener">${name}</a>&nbsp;&mdash; 
+    <a
+      class="${status}"
+      href="${link}"
+      target="_blank"
+      rel="nofollow noopener"
+    >
+      ${name}
+    </a>
+    &nbsp;&mdash; 
     <span>${getPrice(price, currency)}</span>
   </li>`
 
