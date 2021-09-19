@@ -17,12 +17,12 @@ const getWish = ({ name, link, price, currency }) =>
 const render = ({ categories, items }) => {
   const html = categories.map(({ id, name }) => {
     const title = `<h4 class="category-title">${name}</h4>`;
-    const data = items
+    const list = items
       .filter(({ categoryId }) => categoryId === id)
       .map(getWish)
       .join('');
 
-    return `<div class="category">${title}<ul>${data}</ul></div>`;
+    return `<div class="category">${title}<ul>${list}</ul></div>`;
   }).join('');
 
   document.querySelector("#root").innerHTML = html;
