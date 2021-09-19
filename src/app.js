@@ -1,5 +1,10 @@
 import wishes from '../public/wishes.json'
 
+const visibilityMap = {
+  a: 'archive',
+  h: 'hidden',
+}
+
 const getPrice = (amount, currency) =>
   Math.ceil(amount).toLocaleString("ru", {
     style: "currency",
@@ -21,11 +26,16 @@ const getWish = ({ name, link, price, currency, status }) =>
     <span>${getPrice(price, currency)}</span>
   </li>`
 
-const render = ({ categories, items }) => {
+const byCategory = id => ({ categoryId }) => categoryId === id;
+const byVisibility = status => ({ visibility }) => visibility ? status.includes(visibility) : true;
+
+const render = ({ wishes, visibility }) => {
+  const { categories, items } = wishes;
   const html = categories.map(({ id, name }) => {
     const title = `<h4 class="category-title">${name}</h4>`;
     const list = items
-      .filter(({ categoryId }) => categoryId === id)
+      .filter(byCategory(id))
+      .filter(byVisibility(visibility))
       .map(getWish)
       .join('');
 
@@ -35,6 +45,15 @@ const render = ({ categories, items }) => {
   document.querySelector("#root").innerHTML = html;
 };
 
+const getQuery = search => {  
+  const urlSearchParams = new URLSearchParams(search);
+
+  return Object.fromEntries(urlSearchParams.entries());
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-  render(wishes);
+  const { v = '' } = getQuery(window.location.search);
+  const visibility = v.split(',').map(k => visibilityMap[k]);
+
+  render({ wishes, visibility });
 });
