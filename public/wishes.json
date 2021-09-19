@@ -58,7 +58,7 @@
       "price": 1699,
       "currency": "eur",
       "status": "active",
-      "hidden": true
+      "visibility": "hidden"
     },
     {
       "id": 5,
@@ -167,6 +167,16 @@
       "price": 34.79,
       "currency": "USD",
       "status": "presented"
+    },
+    {
+      "id": 17,
+      "categoryId": 0,
+      "name": "Shimano M520 SPD Pedals",
+      "link": "https://mountainpeaks.ru/bike_shop/velozapchasti/pedali_shimano_kontaktnye_spd_pd_m520/?utm_source=yandex.market.ru&utm_medium=price&utm_campaign=fid_gvr_velozapcthasty_modeli_market_11-21036919&utm_content=13024&utm_term=pedali_shimano_kontaktnye_spd_pd_m520&ymclid=16218471725271547459100001",
+      "price": 4115,
+      "currency": "RUB",
+      "status": "presented",
+      "visibility": "archive"
     }
   ]
 }
