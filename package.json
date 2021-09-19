@@ -11,7 +11,7 @@
   "scripts": {
     "start": "parcel ./src/*.html",
     "build": "npm run clean && parcel build ./src/*.html --no-source-maps",
-    "clean": "rm -rf dist/ .parcel-cache",
+    "clean": "rm -rf dist",
     "deploy": "npm run build && cp CNAME dist/ && gh-pages -d dist"
   },
   "devDependencies": {
