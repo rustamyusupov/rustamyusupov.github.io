@@ -12,9 +12,10 @@
     "clean": "rm -Rf dist/ .parcel-cache",
     "start": "parcel ./src/*.html",
     "build": "npm run clean && parcel build ./src/*.html --no-source-maps",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "parcel": "latest"
   }
 }
