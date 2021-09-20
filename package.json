@@ -10,9 +10,9 @@
   },
   "scripts": {
     "start": "parcel ./src/*.html",
-    "build": "npm run clean && parcel build ./src/*.html --no-source-maps",
-    "clean": "rimraf dist .parcel-cache",
-    "deploy": "npm run build && cp CNAME dist/ && gh-pages -d dist"
+    "clean": "rm -Rf dist/ .parcel-cache",
+    "build": "parcel build ./src/*.html --no-source-maps",
+    "deploy": "npm run clean && npm run build && cp CNAME dist/ && gh-pages -d dist"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
@@ -22,7 +22,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "gh-pages": "^3.2.3",
     "parcel": "latest",
-    "prettier": "^2.4.1",
-    "rimraf": "^3.0.2"
+    "prettier": "^2.4.1"
   }
 }
