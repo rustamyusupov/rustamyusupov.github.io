@@ -11,7 +11,7 @@
   "scripts": {
     "start": "parcel ./src/*.html",
     "build": "npm run clean && parcel build ./src/*.html --no-source-maps",
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist .parcel-cache",
     "deploy": "npm run build && cp CNAME dist/ && gh-pages -d dist"
   },
   "devDependencies": {
@@ -22,6 +22,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "gh-pages": "^3.2.3",
     "parcel": "latest",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2"
   }
 }
