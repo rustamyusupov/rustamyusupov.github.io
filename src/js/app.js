@@ -1,8 +1,15 @@
-import wishes from '../public/wishes.json';
+import wishes from '../../public/wishes.json';
+
+const archive = new URL('../../public/images/archive.svg', import.meta.url);
+const hidden = new URL('../../public/images/hidden.svg', import.meta.url);
 
 const visibilityMap = {
   a: 'archive',
   h: 'hidden',
+};
+const images = {
+  archive,
+  hidden,
 };
 
 const byCategory =
@@ -14,6 +21,18 @@ const byVisibility =
   ({ visibility }) =>
     visibility ? status.includes(visibility) : true;
 
+const getIcon = name =>
+  name
+    ? `<img 
+      class="wish-icon"
+      src="${images[name]}"
+      width="14"
+      height="14"
+      alt="visibility"
+      title=${name}
+    />`
+    : '';
+
 const getPrice = (amount, currency) =>
   Math.ceil(amount).toLocaleString('ru', {
     style: 'currency',
@@ -21,7 +40,15 @@ const getPrice = (amount, currency) =>
     maximumFractionDigits: 0,
   });
 
-const getWish = ({ name, link, price, currency, status }) => `<li class="wish">
+const getWish = ({
+  name,
+  link,
+  price,
+  currency,
+  status,
+  visibility,
+}) => `<li class="wish">
+    ${getIcon(visibility)}
     <a
       class="${status}"
       href="${link}"
