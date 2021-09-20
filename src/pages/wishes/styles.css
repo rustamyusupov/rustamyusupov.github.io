@@ -21,8 +21,9 @@
 
 .wish-icon {
   position: absolute;
-  top: 2px;
+  top: 50%;
   left: 3px;
+  transform: translateY(-50%);
 }
 
 .active {
