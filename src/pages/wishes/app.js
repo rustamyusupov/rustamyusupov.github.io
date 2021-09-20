@@ -1,7 +1,7 @@
-import wishes from '../../public/wishes.json';
+import wishes from '../../../public/wishes.json';
 
-const archive = new URL('../../public/images/archive.svg', import.meta.url);
-const hidden = new URL('../../public/images/hidden.svg', import.meta.url);
+const archive = new URL('../../../public/images/archive.svg', import.meta.url);
+const hidden = new URL('../../../public/images/hidden.svg', import.meta.url);
 
 const visibilityMap = {
   a: 'archive',
