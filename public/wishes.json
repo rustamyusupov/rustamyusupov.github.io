@@ -172,11 +172,21 @@
       "id": 17,
       "categoryId": 0,
       "name": "Shimano M520 SPD Pedals",
-      "link": "https://mountainpeaks.ru/bike_shop/velozapchasti/pedali_shimano_kontaktnye_spd_pd_m520/?utm_source=yandex.market.ru&utm_medium=price&utm_campaign=fid_gvr_velozapcthasty_modeli_market_11-21036919&utm_content=13024&utm_term=pedali_shimano_kontaktnye_spd_pd_m520&ymclid=16218471725271547459100001",
+      "link": "https://mountainpeaks.ru/bike_shop/velozapchasti/pedali_shimano_kontaktnye_spd_pd_m520",
       "price": 4115,
       "currency": "RUB",
       "status": "presented",
       "visibility": "archive"
+    },
+    {
+      "id": 17,
+      "categoryId": 0,
+      "name": "Shimano 105 R7000 SPD-SL Pedals",
+      "link": "https://bikeinn.com/велосипед/shimano-105-r7000-spd-sl-pedals/136889885/p",
+      "price": 8053.99,
+      "currency": "RUB",
+      "status": "active",
+      "visibility": "hidden"
     }
   ]
 }
