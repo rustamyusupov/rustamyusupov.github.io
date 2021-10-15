@@ -16,29 +16,35 @@
   "items": [
     {
       "categoryId": 0,
-      "name": "Canyon Ultimate CF SL 7, Size: S",
-      "link": "https://www.canyon.com/en-de/road-bikes/race-bikes/ultimate/cf-sl/ultimate-cf-sl-7/2751.html?dwvar_2751_pv_rahmenfarbe=BK%2FBK",
-      "price": 1699,
-      "currency": "eur",
-      "status": "active",
-      "visibility": "hidden"
-    },
-    {
-      "categoryId": 0,
-      "name": "Garmin HRM-DUAL",
-      "link": "https://www.bikeinn.com/велосипед/garmin-hrm-dual-Частота-сердцебиения-sensor/137082134/p",
-      "price": 3917.99,
-      "currency": "RUB",
+      "name": "Fizik Tempo Powerstrap R5 Road Shoe",
+      "link": "https://www.bike24.com/p2396932.html",
+      "price": 67.22,
+      "currency": "EUR",
       "status": "active"
     },
     {
       "categoryId": 0,
       "name": "Shimano 105 R7000 SPD-SL Pedals",
       "link": "https://bikeinn.com/велосипед/shimano-105-r7000-spd-sl-pedals/136889885/p",
-      "price": 8053.99,
+      "price": 7779.99,
       "currency": "RUB",
-      "status": "active",
-      "visibility": "hidden"
+      "status": "active"
+    },
+    {
+      "categoryId": 0,
+      "name": "4iiii Precision SH 7000 Left Crank Power Meter",
+      "link": "https://www.bikeinn.com/bike/4iiii-precision-sh-7000-left-crank-power-meter/137530674/p",
+      "price": 19287.49,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "categoryId": 0,
+      "name": "Garmin HRM-DUAL",
+      "link": "https://www.bikeinn.com/велосипед/garmin-hrm-dual-Частота-сердцебиения-sensor/137082134/p",
+      "price": 3781.99,
+      "currency": "RUB",
+      "status": "active"
     },
     {
       "categoryId": 0,
@@ -66,11 +72,21 @@
     },
     {
       "categoryId": 0,
+      "name": "Canyon Ultimate CF SL 7, Size: S",
+      "link": "https://www.canyon.com/en-de/road-bikes/race-bikes/ultimate/cf-sl/ultimate-cf-sl-7/2751.html?dwvar_2751_pv_rahmenfarbe=BK%2FBK",
+      "price": 1699,
+      "currency": "eur",
+      "status": "presented",
+      "visibility": "archive"
+    },
+    {
+      "categoryId": 0,
       "name": "Magene S3+ Speed Cadence Sensor",
       "link": "https://aliexpress.ru/item/4001008082955.html?item_id=4001008082955&sku_id=12000016135940809",
       "price": 34.79,
       "currency": "USD",
-      "status": "presented"
+      "status": "presented",
+      "visibility": "archive"
     },
     {
       "categoryId": 0,
@@ -83,9 +99,9 @@
     },
     {
       "categoryId": 1,
-      "name": "Elite Custom Race Bottle Cage, Count: 2 pcs",
-      "link": "https://www.bikeinn.com/bike/elite-custom-race-bottle-cage/45766/p",
-      "price": 622.99,
+      "name": "Elite Vico Carbon Bottle Cage, Count: 2 pcs",
+      "link": "https://www.bikeinn.com/bike/elite-vico-carbon-bottle-cage/137417303/p",
+      "price": 1347.99,
       "currency": "RUB",
       "status": "active"
     },
@@ -115,10 +131,10 @@
     },
     {
       "categoryId": 1,
-      "name": "MET Vinci MIPS Helmet, Size: M, Color: white",
-      "link": "https://www.bikeinn.com/велосипед/met-vinci-mips-helmet/137297893/p",
-      "price": 7577.99,
-      "currency": "RUB",
+      "name": "Giro Synthe MIPS II - Road Bike Helmet, Size: M, Color: white",
+      "link": "https://www.bike-discount.de/en/buy/giro-synthe-mips-ii-road-bike-helmet-1032716",
+      "price": 142.82,
+      "currency": "EUR",
       "status": "active"
     },
     {
