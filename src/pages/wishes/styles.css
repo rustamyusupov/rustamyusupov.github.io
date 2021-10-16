@@ -13,6 +13,7 @@
 .wish {
   position: relative;
   padding-left: 20px;
+  max-width: 70ch;
 }
 
 .wish:not(:last-child) {
