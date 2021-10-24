@@ -116,9 +116,9 @@
     },
     {
       "categoryId": 1,
-      "name": "Elite Fly Tour De France 550ml Water Bottle, Count: 2 pcs",
-      "link": "https://www.bikeinn.com/велосипед/elite-fly-tour-de-france-550ml-water-bottle/138079611/p",
-      "price": 368.99,
+      "name": "Elite Fly 550ml Water Bottle, Count: 2 pcs",
+      "link": "https://www.bikeinn.com/bike/elite-fly-550ml-water-bottle/137515637/p",
+      "price": 275.99,
       "currency": "RUB",
       "status": "active"
     },
@@ -143,6 +143,14 @@
       "name": "POC Omne Air SPIN Road Helmet, Size: M",
       "link": "https://www.bikeinn.com/bike/poc-omne-air-spin-road-helmet/136992662/p",
       "price": 11988.49,
+      "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "categoryId": 1,
+      "name": "Elite Fly Tour De France 550ml Water Bottle",
+      "link": "https://www.bikeinn.com/велосипед/elite-fly-tour-de-france-550ml-water-bottle/138079611/p",
+      "price": 368.99,
       "currency": "RUB",
       "status": "active"
     },
