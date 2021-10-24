@@ -16,11 +16,12 @@
   "items": [
     {
       "categoryId": 0,
-      "name": "Elite SUITO-T Direct Drive Trainer",
-      "link": "https://www.bike-discount.de/en/buy/elite-suito-t-direct-drive-trainer-1084834",
-      "price": 420.16,
-      "currency": "EUR",
-      "status": "active"
+      "name": "Elite Direto-X OTS",
+      "link": "https://www.wiggle.com/elite-direto-x-ots?sku=103286698&curr=USD&dest=24&prevDestCountryId=24",
+      "price": 649.11,
+      "currency": "USD",
+      "status": "active",
+      "visibility": "hidden"
     },
     {
       "categoryId": 0,
@@ -40,17 +41,17 @@
     },
     {
       "categoryId": 0,
-      "name": "4iiii Precision SH 7000 Left Crank Power Meter",
-      "link": "https://www.bikeinn.com/bike/4iiii-precision-sh-7000-left-crank-power-meter/137530674/p",
-      "price": 19287.49,
+      "name": "Garmin HRM-DUAL",
+      "link": "https://www.bikeinn.com/велосипед/garmin-hrm-dual-Частота-сердцебиения-sensor/137082134/p",
+      "price": 3781.99,
       "currency": "RUB",
       "status": "active"
     },
     {
       "categoryId": 0,
-      "name": "Garmin HRM-DUAL",
-      "link": "https://www.bikeinn.com/велосипед/garmin-hrm-dual-Частота-сердцебиения-sensor/137082134/p",
-      "price": 3781.99,
+      "name": "4iiii Precision SH 7000 Left Crank Power Meter",
+      "link": "https://www.bikeinn.com/bike/4iiii-precision-sh-7000-left-crank-power-meter/137530674/p",
+      "price": 19287.49,
       "currency": "RUB",
       "status": "active"
     },
