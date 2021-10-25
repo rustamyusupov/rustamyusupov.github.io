@@ -33,10 +33,10 @@
     },
     {
       "categoryId": 0,
-      "name": "Shimano 105 R7000 SPD-SL Pedals",
-      "link": "https://bikeinn.com/велосипед/shimano-105-r7000-spd-sl-pedals/136889885/p",
-      "price": 7779.99,
-      "currency": "RUB",
+      "name": "Shimano 105 Carbon PD-R7000 Clipless Pedals",
+      "link": "https://www.bike-components.de/en/Shimano/105-Carbon-PD-R7000-Clipless-Pedals-p64825/",
+      "price": 67.22,
+      "currency": "EUR",
       "status": "active"
     },
     {
@@ -112,7 +112,8 @@
       "link": "https://www.bikeinn.com/bike/elite-vico-carbon-bottle-cage/137417303/p",
       "price": 1347.99,
       "currency": "RUB",
-      "status": "active"
+      "status": "active",
+      "visibility": "hidden"
     },
     {
       "categoryId": 1,
@@ -120,7 +121,8 @@
       "link": "https://www.bikeinn.com/bike/elite-fly-550ml-water-bottle/137515637/p",
       "price": 275.99,
       "currency": "RUB",
-      "status": "active"
+      "status": "active",
+      "visibility": "hidden"
     },
     {
       "categoryId": 1,
