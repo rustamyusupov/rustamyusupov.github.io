@@ -200,6 +200,14 @@
     },
     {
       "categoryId": 2,
+      "name": "Nike Air Force 1 '07, Size: 8.5 US",
+      "link": "https://www.nike.com/t/air-force-1-07-mens-shoes-5QFp5Z/CW2288-001",
+      "price": 90,
+      "currency": "USD",
+      "status": "active"
+    },
+    {
+      "categoryId": 2,
       "name": "Veter Base Layer, Size: M",
       "link": "https://veter.cc/store?store-page=МУЖСКОЙ-БАЗОВЫЙ-СЛОЙ-2021-p389430742",
       "price": 1990,
