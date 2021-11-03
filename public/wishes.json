@@ -16,15 +16,6 @@
   "items": [
     {
       "categoryId": 0,
-      "name": "Elite Direto-X OTS",
-      "link": "https://www.wiggle.com/elite-direto-x-ots?sku=103286698&curr=USD&dest=24&prevDestCountryId=24",
-      "price": 649.11,
-      "currency": "USD",
-      "status": "active",
-      "visibility": "hidden"
-    },
-    {
-      "categoryId": 0,
       "name": "Fizik Tempo Powerstrap R5 Road Shoe",
       "link": "https://www.bike24.com/p2396932.html",
       "price": 67.22,
@@ -86,6 +77,15 @@
       "link": "https://www.canyon.com/en-de/road-bikes/race-bikes/ultimate/cf-sl/ultimate-cf-sl-7/2751.html?dwvar_2751_pv_rahmenfarbe=BK%2FBK",
       "price": 1699,
       "currency": "eur",
+      "status": "presented",
+      "visibility": "archive"
+    },
+    {
+      "categoryId": 0,
+      "name": "Elite Direto-X OTS",
+      "link": "https://www.wiggle.com/elite-direto-x-ots?sku=103286698&curr=USD&dest=24&prevDestCountryId=24",
+      "price": 649.11,
+      "currency": "USD",
       "status": "presented",
       "visibility": "archive"
     },
