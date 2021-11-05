@@ -26,10 +26,11 @@
     {
       "categoryId": 0,
       "name": "Shimano 105 Carbon PD-R7000 Clipless Pedals",
-      "link": "https://www.bike-components.de/en/Shimano/105-Carbon-PD-R7000-Clipless-Pedals-p64825/",
-      "price": 67.22,
-      "currency": "EUR",
-      "status": "active"
+      "link": "https://aliexpress.ru/item/1005002685079425.html?item_id=1005002685079425&sku_id=12000021711102230",
+      "price": 4502.23,
+      "currency": "RUB",
+      "status": "active",
+      "visibility": "hidden"
     },
     {
       "categoryId": 0,
@@ -57,18 +58,18 @@
     },
     {
       "categoryId": 0,
-      "name": "Sony’s WH-1000XM4",
-      "link": "https://www.sony.com/electronics/headband-headphones/wh-1000xm4",
-      "price": 350,
-      "currency": "USD",
-      "status": "active"
-    },
-    {
-      "categoryId": 0,
       "name": "Lezyne Femto USB Drive Rear Light",
       "link": "https://www.bikeinn.com/велосипед/lezyne-femto-usb-drive-rear-light/137290122/p",
       "price": 1186.99,
       "currency": "RUB",
+      "status": "active"
+    },
+    {
+      "categoryId": 0,
+      "name": "Sony’s WH-1000XM4",
+      "link": "https://www.sony.com/electronics/headband-headphones/wh-1000xm4",
+      "price": 350,
+      "currency": "USD",
       "status": "active"
     },
     {
