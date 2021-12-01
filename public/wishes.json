@@ -16,15 +16,6 @@
   "items": [
     {
       "categoryId": 0,
-      "name": "Shimano 105 Carbon PD-R7000 Clipless Pedals",
-      "link": "https://aliexpress.ru/item/1005002685079425.html?item_id=1005002685079425&sku_id=12000021711102230",
-      "price": 4502.23,
-      "currency": "RUB",
-      "status": "active",
-      "visibility": "hidden"
-    },
-    {
-      "categoryId": 0,
       "name": "Garmin HRM-DUAL",
       "link": "https://www.bikeinn.com/велосипед/garmin-hrm-dual-Частота-сердцебиения-sensor/137082134/p",
       "price": 3781.99,
@@ -104,6 +95,15 @@
       "name": "Shimano M520 SPD Pedals",
       "link": "https://mountainpeaks.ru/bike_shop/velozapchasti/pedali_shimano_kontaktnye_spd_pd_m520",
       "price": 4115,
+      "currency": "RUB",
+      "status": "presented",
+      "visibility": "archive"
+    },
+    {
+      "categoryId": 0,
+      "name": "Shimano 105 Carbon PD-R7000 Clipless Pedals",
+      "link": "https://aliexpress.ru/item/1005002685079425.html?item_id=1005002685079425&sku_id=12000021711102230",
+      "price": 4502.23,
       "currency": "RUB",
       "status": "presented",
       "visibility": "archive"
