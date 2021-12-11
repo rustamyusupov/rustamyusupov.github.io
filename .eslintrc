@@ -3,12 +3,13 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "extends": ["eslint:recommended"],
   "parserOptions": {
     "ecmaVersion": 12,
     "sourceType": "module"
   },
   "rules": {
-    "max-len": ["error", { "code": 100, "ignoreUrls": true }]
+    "max-len": ["error", { "code": 100, "ignoreUrls": true }],
+    "quotes": ["error", "single"]
   }
 }
