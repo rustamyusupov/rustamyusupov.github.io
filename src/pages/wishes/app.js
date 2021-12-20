@@ -72,7 +72,7 @@ const render = ({ lists, visibility }) => {
         .map(getWish)
         .join('');
 
-      return `<div class="category">${title}<ul>${list}</ul></div>`;
+      return `<section class="category">${title}<ul>${list}</ul></section>`;
     })
     .join('');
 
