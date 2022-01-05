@@ -32,14 +32,6 @@
     },
     {
       "categoryId": 0,
-      "name": "Garmin Edge 530",
-      "link": "https://www.bikeinn.com/велосипед/garmin-edge-530-Езда-на-велосипеде-Компьютер/137180529/p",
-      "price": 18634.99,
-      "currency": "RUB",
-      "status": "active"
-    },
-    {
-      "categoryId": 0,
       "name": "Lezyne Femto USB Drive Rear Light",
       "link": "https://www.bikeinn.com/велосипед/lezyne-femto-usb-drive-rear-light/137290122/p",
       "price": 1186.99,
@@ -69,6 +61,15 @@
       "link": "https://www.wiggle.com/elite-direto-x-ots?sku=103286698&curr=USD&dest=24&prevDestCountryId=24",
       "price": 649.11,
       "currency": "USD",
+      "status": "presented",
+      "visibility": "archive"
+    },
+    {
+      "categoryId": 0,
+      "name": "Garmin Edge 530",
+      "link": "https://www.bikeinn.com/велосипед/garmin-edge-530-Езда-на-велосипеде-Компьютер/137180529/p",
+      "price": 18634.99,
+      "currency": "RUB",
       "status": "presented",
       "visibility": "archive"
     },
@@ -121,14 +122,6 @@
       "name": "POC Omne Air SPIN Road Helmet, Size: M",
       "link": "https://www.bikeinn.com/bike/poc-omne-air-spin-road-helmet/136992662/p",
       "price": 11988.49,
-      "currency": "RUB",
-      "status": "active"
-    },
-    {
-      "categoryId": 1,
-      "name": "Garmin Forerunner/Fénix Bicycle Mount",
-      "link": "https://www.bikeinn.com/велосипед/garmin-forerunner-fenix-bicycle-mount/6654/p",
-      "price": 727.99,
       "currency": "RUB",
       "status": "active"
     },
