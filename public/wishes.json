@@ -127,6 +127,14 @@
     },
     {
       "categoryId": 1,
+      "name": "B&W Bike Box II Transport Case",
+      "link": "https://www.bike-components.de/en/B-W/Bike-Box-II-Transport-Case-p66212",
+      "price": 306.72,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "categoryId": 1,
       "name": "Elite Fly Tour De France 550ml Water Bottle",
       "link": "https://www.bikeinn.com/велосипед/elite-fly-tour-de-france-550ml-water-bottle/138079611/p",
       "price": 368.99,
