@@ -32,14 +32,6 @@
     },
     {
       "categoryId": 0,
-      "name": "Lezyne Femto USB Drive Rear Light",
-      "link": "https://www.bikeinn.com/велосипед/lezyne-femto-usb-drive-rear-light/137290122/p",
-      "price": 1186.99,
-      "currency": "RUB",
-      "status": "active"
-    },
-    {
-      "categoryId": 0,
       "name": "Sony’s WH-1000XM4",
       "link": "https://www.sony.com/electronics/headband-headphones/wh-1000xm4",
       "price": 350,
@@ -88,6 +80,15 @@
       "link": "https://aliexpress.ru/item/4001008082955.html?item_id=4001008082955&sku_id=12000016135940809",
       "price": 34.79,
       "currency": "USD",
+      "status": "presented",
+      "visibility": "archive"
+    },
+    {
+      "categoryId": 0,
+      "name": "Lezyne Femto USB Drive Rear Light",
+      "link": "https://www.bikeinn.com/велосипед/lezyne-femto-usb-drive-rear-light/137290122/p",
+      "price": 1186.99,
+      "currency": "RUB",
       "status": "presented",
       "visibility": "archive"
     },
